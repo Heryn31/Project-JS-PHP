@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-radius: 4px;
+}
+form {
+  margin: 100px 0 0 0;
+}
+.titre_add {
+  margin: 20px 0 0 0;
+}
+.fill {
+  width: 250px;
+  height: 50px;
+  /* border: 0; */
+}
+.go {
+  width: 250px;
+  height: 50px;
+}
+.reset {
+  cursor: pointer;
+  border: 0;
+}
+.save {
+  border: 0;
+}
+.save:hover {
+  background-color: aquamarine;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button{
+    border: 0;
+    width: 250px;
+    height: 50px;
+}
+button:hover{
+    background-color: aquamarine;
+    font-weight: bolder;
+    cursor: pointer;
+}

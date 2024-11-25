@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.side_left {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background-color: #08ba08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  animation: start_left 1s ease-in-out 1;
+}
+/* @keyframes start {
+  0% {
+    width: 100%;
+    background-color: grey;
+  }
+  100% {
+    width: 25%;
+  }
+} */
+.side_right {
+  margin-left: 50%;
+  height: 100vh;
+}
+button {
+  height: 100px;
+  width: 500px;
+  background-color: #08ba08;
+  font-size: 33px;
+  border: 0;
+  border-radius: 15px 15px 0 15px;
+  color: white;
+  margin: 100px 0 0 0;
+  cursor: pointer;
+  transition: 0.5s;
+  animation: start_button_right 1s ease-in-out 1;
+}
+@keyframes start_button_right {
+  0% {
+    width: 100%;
+    background-color: transparent;
+    font-size: 0;
+
+    /* height: 500px; */
+    /* font-size: 11px; */
+  }
+  100% {
+  }
+}
+@keyframes start_button_left {
+  0% {
+    width: 0;
+    background-color: transparent;
+    font-size: 0;
+
+    /* height: 500px; */
+    /* font-size: 11px; */
+  }
+  100% {
+  }
+}
+@keyframes start_left {
+  0% {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    color: transparent;
+    font-size: 0;
+    /* height: 500px; */
+    /* font-size: 11px; */
+  }
+  100% {
+  }
+}
+button:hover {
+  padding-bottom: 15px;
+  background-color: grey;
+  color: white;
+}
+.etudiant {
+  animation: start_button_left 1s ease-in-out 1;
+}
+
+.deco {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 75%;
+  transition: 0.1s ease-in;
+}
+.deco:hover {
+  font-weight: bold;
+}
+.img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* position: absolute;
+  bottom: 10px;
+  left: 10px; */
+}
+
+.container {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+}
